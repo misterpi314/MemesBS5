@@ -17,6 +17,23 @@
           <p class="lead">Placeholder</p>
 		      <p>Placeholder</p>
         </div>
+        <script>
+          var n1=0;
+          var n2=0;
+          var n3=0;
+          function add(n){
+            n+=1;
+            n%=3;
+            //alert(n);
+            return n;
+          }
+          function minus(n){
+            n+=2;
+            n%=3;
+            //alert(n);
+            return n;
+          }
+        </script>
         <div id="carousel" class="carousel slide col-md-5 " data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -26,7 +43,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-ride=true>
               <img src="https://i.kym-cdn.com/entries/icons/original/000/043/403/cover3.jpg" height="300" width="800" class="d-block w-100" alt="image0">
-            </div>
+          </div>
             <div class="carousel-item" data-bs-ride=true>
               <img src="https://wegotthiscovered.com/wp-content/uploads/2022/09/Olli-The-Polite-Cat-Meme.jpeg?w=1200" height="300" width="800" class="d-block w-100" alt="image1">
             </div>
@@ -34,10 +51,10 @@
               <img src="https://www.newshub.co.nz/home/lifestyle/2019/08/the-top-five-cat-memes-of-all-time-rated/_jcr_content/par/video/image.dynimg.full.q75.jpg" height="300" width="800" class="d-block w-100 " alt="image2">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <button onclick="n1 = minus(n1)" class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <button onclick="n1 = add(n1)" class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </button>
         </div>
@@ -67,10 +84,10 @@
               <img src="https://www.newshub.co.nz/home/lifestyle/2019/08/the-top-five-cat-memes-of-all-time-rated/_jcr_content/par/video/image.dynimg.full.q75.jpg" height="300" width="800" class="d-block w-100 " alt="image2">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+          <button onclick="n2 = minus(n2)" class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+          <button onclick="n2 = add(n2)" class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </button>
         </div>
@@ -102,11 +119,11 @@
             </div>
           </div>
           <!--上一張-->
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+          <button onclick="n3 = minus(n3)" class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           </button>
           <!--下一張-->
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+          <button  onclick="n3 = add(n3)" class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </button>
         </div>
