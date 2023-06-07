@@ -7,7 +7,7 @@ function add(n){
     //alert(n);
     return n;
   }
-  function minus(n){
+function minus(n){
     n+=2;
     n%=3;
     //alert(n);

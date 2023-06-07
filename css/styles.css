@@ -1,5 +1,13 @@
+* {
+    color: #ffffff;
+  }
+
+  hr {
+    border-top: 1px solid #777777;
+  }
+
 body {
-    background-color: #ffffee;
+    background-color: #121212;
 }
 
 h1{
