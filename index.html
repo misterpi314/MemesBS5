@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <script src="js/include.js"></script>
+    <script src="js/script.js"></script>
     <title>台灣迷因</title>
   </head>
 
@@ -16,7 +16,7 @@
     <div id="navbar"></div>
     <!--頁面開始-->
     <div class="container">
-    <div class="row-fluid">
+    <div class="row">
       <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
         <!--輪播頁面指示器-->
         <div class="carousel-indicators">
@@ -32,36 +32,36 @@
           <button type="button" data-bs-target="#carousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
         </div>
         <!--輪播-->
-        <div class="carousel-inner" style="max-width: 100%; height: auto;">
+        <div class="carousel-inner" id="imgs">
           <div class="carousel-item active">
-            <center><img src="img/可憐哪.jpg" class="img-fluid d-block" alt="poor"></center>
+            <img src="img/可憐哪.jpg" alt="可憐哪.jpg">
           </div>
           <div class="carousel-item">
-            <center><img src="img/我要看到血流成河.jpg" class="img-fluid d-block" alt="blood"></center>
+            <img src="img/我要看到血流成河.jpg" alt="我要看到血流成河.jpg">
           </div>
           <div class="carousel-item">
-            <center><img src="img/所以愛會消失對嗎.jpg" class="img-fluid d-block" alt="love"></center>
+            <img src="img/所以愛會消失對嗎.jpg" alt="所以愛會消失對嗎.jpg">
           </div>
           <div class="carousel-item">
-            <center><img src="img/煙火阿嬤.gif"class="img-fluid d-block" alt="Fireworks"></center>
+            <img src="img/你要出多少.png" alt="你要出多少.png">
           </div>
           <div class="carousel-item">
-            <center><img src="img/用生命做英文報告.gif" class="img-fluid d-block" alt="Assignment"></center>
+            <img src="img/卑鄙源之助.jpg" alt="卑鄙源之助.jpg">
           </div>
           <div class="carousel-item">
-            <center><img src="img/超大雙人床.gif" class="img-fluid d-block" alt="XL Full sized bed"></center>
+            <img src="img/阿跟不上我的速度吧阿嘎.jpg" alt="阿跟不上我的速度吧阿嘎.jpg">
           </div>
           <div class="carousel-item">
-            <center><img src="img/你要出多少.png" class="img-fluid d-block" alt="XL Full sized bed"></center>
+            <img src="img/野豬騎士來囉.jpg" alt="野豬騎士來囉.jpg">
           </div>
           <div class="carousel-item">
-            <center><img src="img/卑鄙源之助.jpg" class="img-fluid d-block" alt="XL Full sized bed"></center>
+            <img src="img/煙火阿嬤.gif" alt="煙火阿嬤.gif">
           </div>
           <div class="carousel-item">
-            <center><img src="img/阿跟不上我的速度吧阿嘎.jpg" class="img-fluid d-block" alt="XL Full sized bed"></center>
+            <img src="img/用生命做英文報告.gif" alt="用生命做英文報告.gif">
           </div>
           <div class="carousel-item">
-            <center><img src="img/野豬騎士來囉.jpg" class="img-fluid d-block" alt="XL Full sized bed"></center>
+            <img src="img/超大雙人床.gif" alt="超大雙人床.gif">
           </div>
         </div>
       </div>
@@ -75,14 +75,14 @@
       <center>
       <h1>台灣の<orange>迷因</orange></h1>
       <p class="lead">了解迷因的起點</p>
-      <h3><p>我們致力於介紹台灣迷因的由來，讓大家更好知道這些迷因的源頭來自哪裡</p></h3>
-    </center>
+      <h3><p>我們致力於介紹台灣<orange>迷因</orange>的由來，讓大家更好知道這些<orange>迷因</orange>的源頭來自哪裡。</p></h3>
+      </center>
     </div>
     <br>
     <!--卡片-->
     <div class="row">
       <div class="col-md-6">
-        <div class="card mx-auto" style="width: 50%">
+        <div class="card mx-auto">
           <img src="img/卑鄙源之助.jpg" class="card-img-top" alt="memes-pic">
           <div class="card-body">
             <h5 class="card-title">梗圖專區</h5>
@@ -92,7 +92,7 @@
           </div>
       </div>
       <div class="col-md-6">
-        <div class="card mx-auto" style="width: 50%">
+        <div class="card mx-auto">
           <img src="img/超大雙人床.gif" class="card-img-top" alt="memes-pic">
           <div class="card-body">
             <h5 class="card-title">梗影專區</h5>
