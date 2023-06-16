@@ -32,15 +32,13 @@ nav-item{
 
 .card{
   width: 60%;
-  color: #000000
+  color: #000000;
+  background-color: #151515;
 }
 
-.card-title{
-  color: #000000
-}
-
-.card-text{
-  color: #000000
+.card .btn{
+  background-color: #ffa550;
+  border: white;
 }
 
 a:link {
