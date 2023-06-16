@@ -3,6 +3,6 @@ $(function(){
   $("#footer").load("footer.html"); 
   $('#imgs').find('img').addClass('img-fluid')
   $('.carousel').carousel({
-    interval: 3000
+    interval: 3500,
   });
 });
