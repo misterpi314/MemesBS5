@@ -43,6 +43,18 @@ nav-item{
   color: #000000
 }
 
+a:link {
+  color: #ffa500;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
