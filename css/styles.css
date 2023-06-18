@@ -38,7 +38,8 @@ nav-item{
 
 .card .btn{
   background-color: #ffa550;
-  border: white;
+  border: #FFFFFF;
+  color: #FFFFFF;
 }
 
 a:link {
